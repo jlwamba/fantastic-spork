@@ -38,7 +38,7 @@ Improve the communication betweeen students and professors by adding a tool that
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
 
 ## Overview
-The idea of this tool feauture is that it will provide users with a peace of mind knowing that their email has been received by the correct contact among other feautures that will be explained throughout this proposal.
+We want to create an app that sends user's a notifcation when their email is received, viewed, and/or intended on being responded to. As students, we want to create this to to ensure it is received by the correct contact(s), depending on the nature of the email (ex. emergency situations), and to ensure there is not a server and/or client error.
 
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
 
@@ -66,11 +66,13 @@ Since it is a very recent technology, developers are still monitoring the perfor
 
 ### Use case scenario
 
-The current adoption of a blockchain operating system is not yet so large, however the direction in which this technology is moving is heading in that direction. Its architecture is not simple, as it involves the infrastructure to support the platform's own operations, such as the blockchain validation process. However, as a first approach, we could imagine what it would be like to incorporate blockchain technology into an operating system in a basic way.
+We (students) want to know when/if our email is received by the professor.
+We (professors) want to know when/if our email is received by students.
 
-Imagine a small security company working in conjunction with the government agency charged with monitoring its national defense systems. Of course, security in the execution of their daily functions and operations is an extremely important factor. The information systems they have must be highly secure to prevent access to third parties that could carry out operations that could put the country at risk, and even more so the operating system in which it runs. Or the same example, but in a company in charge of organizing elections in a country that has adopted electronic voting: the security and privacy in its systems must be strong and reliable enough to process the results computations.
+Should email encryption be a thing? 
+-Only those that have the private key can decrypt the email
 
-In either case, it would be advisable to have a blockchain operating system that supports the entire operation and also offers its benefits. Here, each person working in the company must have an associated computer and all the operations performed in it must be part of a certified blockchain; even a simple command must be recorded. The information generated from all this process should be stored for later consultation, review or incident reporting. This would provide a strong additional control system for the confidence of your customers. 
+Situation: You sent the wrong email to someone else possibly containing sensitive information. This is a very common mistake that occurs for those with simple email addresses. 
 
 <p align="center">
   <img width="500" src="https://user-images.githubusercontent.com/88801826/133133205-dfe4a97a-05a0-4383-bb83-2494b73e3fcf.png">
