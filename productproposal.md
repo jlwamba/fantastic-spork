@@ -31,7 +31,8 @@ We want to create an app that sends user's a notifcation when their email is rec
 
 ## Background
 
-Have you ever been urgently needing a response from your professor but had absolutely no clue if they've even seen it? Our product is designed to give immediate feedback to students as soon as the professor has seen your message. It also includes buttons to select the type of message you plan on sending. Ex: Urgent, Homework Help, Attendance, etc.Canvas messages only allow the choice to select a course, recipient, and subject. While the subject bar gives you an opportunity to inform your instructor of the purpose behind your message, many people leave it blank. Another problem is not knowing whether or not your instructor has seen your message. This can be stressful when you would like an immediate response or the message is urgent. 
+Have you ever been urgently needing a response from your professor but had absolutely no clue if they've even seen it? Canvas messages only allow the choice to select a course, recipient, and subject. While the subject bar gives you an opportunity to inform your instructor of the purpose behind your message, many people leave it blank.  Another problem is not knowing whether or not your instructor has seen your message. This can be stressful when you would like an immediate response or the message is urgent.  Our product is designed to give immediate feedback to students as soon as the professor has seen your message depending on keywords that are given in the subject line. It also includes buttons to select the type of message you plan on sending. Ex: Urgent, Homework Help, Attendance, etc. 
+
 <img width="400" src="https://github.com/sydkeet/fantastic-spork/issues/1#issue-1016547535">
 
 <p align="center">
@@ -44,13 +45,14 @@ Have you ever been urgently needing a response from your professor but had absol
 
 ### Use case scenario
 
-We (students) want to know when/if our email is received by the professor.
-We (professors) want to know when/if our email is received by students.
+As a student
+I want to know if my professor has seen, read, plans to respond to my email
+So That I am not left in the dark, its transparent, anxiety and frustration reduced.
 
-Should email encryption be a thing? 
--Only those that have the private key can decrypt the email
+As a professor
+I want standard messaging
+So That I can keep track, be helpful, turn into value for others, & not have to play detective
 
-Situation: You sent the wrong email to someone else possibly containing sensitive information. This is a very common mistake that occurs for those with simple email addresses. 
 <!--
 <p align="center">
   <img width="500" src="https://user-images.githubusercontent.com/88801826/133133205-dfe4a97a-05a0-4383-bb83-2494b73e3fcf.png">
