@@ -90,7 +90,7 @@ The way in which this could happen is to introduce an intermediate layer among w
 
 ## Scope
 
-This is gonna be only a prototype of blockchained operating system command line interface (bCLI) and will only accept simple stringed commands, like `ls`, `dir`, `cls`, `clear` or `pwd`, for example. Will be enabled to interact with members of a network and its number of members will be pre-defined, along with the host name and port numbers. It can be runned on a cross platform, like Windows, MacOS or Linux.
+This is going to be a prototype of the student-professor communiction mechanism. It will be a form that will be able to generate a notification to send back to the sender such as if the email was received, plans on responding, and received by the correct client using the BLUF method.  It can be ran on a cross platform, like Windows, MacOS or Linux.
 
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
 
