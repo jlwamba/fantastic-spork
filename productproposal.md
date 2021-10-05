@@ -40,9 +40,10 @@ We want to create an app that sends user's a notifcation when their email is rec
 ## Background
 
 Have you ever been urgently needing a response from your professor but had absolutely no clue if they've even seen it? Our product is designed to give immediate feedback to students as soon as the professor has seen your message. It also includes buttons to select the type of message you plan on sending. Ex: Urgent, Homework Help, Attendance, etc. The advances that technology has made in recent years have allowed us to change the way we do things, incorporating new techniques and new protocols to the activities that we have been doing for years. The economic, commerce and health sectors have been among the most benefited
+<img width="400" src="https://github.com/sydkeet/fantastic-spork/issues/1#issue-1016547535">
 
 <p align="center">
-  <img width="400" src="https://user-images.githubusercontent.com/88801826/131191074-b6e45d91-692a-466e-b12b-68cd1dcf7d06.png">
+  <img width="400" src="https://github.com/sydkeet/fantastic-spork/issues/1#issue-1016547535">
 </p>
 
 Since it is a very recent technology, developers are still monitoring the performance of their creations, although some options are already on the market. For example, NYNJA vOS offers a platform that supports a communication layer offering text, voice, video conferencing, and project management tools, a secure payments layer for commercial transactions. Also supports a marketplace for commercial activities. Also the company Quant Network has an interesting approach to this subject with it enterprise OS that interconnects blockchain legacy, current or future platforms and networks.-->
