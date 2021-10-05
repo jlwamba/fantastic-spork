@@ -8,6 +8,7 @@ This product is made by Jerry, Sydney, and Trey. Review our team member Wiki her
 * [Use case scenario](#Use-case-scenario) 
 * [Objectives](#Objectives)
 * [Scope](#Scope)
+* [Initial Configuration](#Initial-configuration)
 * [Solution](#Solution) 
 * [Multimedia](#Multimedia)
 * [Resource center](#Resource-center)
