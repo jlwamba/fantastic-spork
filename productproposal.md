@@ -39,14 +39,14 @@ We want to create an app that sends user's a notifcation when their email is rec
 
 ## Background
 
-Have you ever been urgently needing a response from your professor but had absolutely no clue if they've even seen it? Our product is designed to give immediate feedback to students as soon as the professor has seen your message. It also includes buttons to select the type of message you plan on sending. Ex: Urgent, Homework Help, Attendance, etc. The advances that technology has made in recent years have allowed us to change the way we do things, incorporating new techniques and new protocols to the activities that we have been doing for years. The economic, commerce and health sectors have been among the most benefited
+Have you ever been urgently needing a response from your professor but had absolutely no clue if they've even seen it? Our product is designed to give immediate feedback to students as soon as the professor has seen your message. It also includes buttons to select the type of message you plan on sending. Ex: Urgent, Homework Help, Attendance, etc.Canvas messages only allow the choice to select a course, recipient, and subject. While the subject bar gives you an opportunity to inform your instructor of the purpose behind your message, many people leave it blank. Another problem is not knowing whether or not your instructor has seen your message. This can be stressful when you would like an immediate response or the message is urgent. 
 <img width="400" src="https://github.com/sydkeet/fantastic-spork/issues/1#issue-1016547535">
 
 <p align="center">
   <img width="400" src="https://github.com/sydkeet/fantastic-spork/issues/1#issue-1016547535">
 </p>
 
-Since it is a very recent technology, developers are still monitoring the performance of their creations, although some options are already on the market. For example, NYNJA vOS offers a platform that supports a communication layer offering text, voice, video conferencing, and project management tools, a secure payments layer for commercial transactions. Also supports a marketplace for commercial activities. Also the company Quant Network has an interesting approach to this subject with it enterprise OS that interconnects blockchain legacy, current or future platforms and networks.-->
+
 
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
 
@@ -523,13 +523,9 @@ Finally, in the main file of the template, we add the information by placing an 
 
 <!--Although tests were performed during the development of the application, the most representative tests that contributed to the outcome of the project are documented below:-->
 
-### Results
+### Solution
+With our app, there will be additional options when sending your email including radio buttons to decide the purpose behind your email, and checkboxes to select whether your email is urgent or if it even needs a response. It will also notify you once your email has been read by your instructor in real-time.
 
-<!--With the tests performed, we were able to verify that the development of our application was completed for the purposes stated in the objectives and scope of the project. We were able to emulate a terminal using web technologies, such as Electron with Node.js. 
-
-We were able to adapt the Blockchain prototype to store the command and application's own information. The integration of several instances also represented a challenge, but fortunately it could be completed by integrating basic concepts of web requests. We even managed to customize a web view for the information.
-
-In the end, the developed application, although it only allows the user to execute very basic commands and only a few characters, is able to catch and process them, serving as a demonstration to explain the operation of Blockchain technology and provide an overview of the full scope that can be achieved if its application is continued in this direction. --> 
 
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
 
