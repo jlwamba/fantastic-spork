@@ -22,7 +22,7 @@ This is a proposal of our prototype Student-Professor Communication Mechanism. T
 ## Overview
 We want to create an app that sends user's a notifcation when their email is received, viewed, and/or intended on being responded to. As students, we want to create this to to ensure it is received by the correct contact(s), depending on the nature of the email (ex. emergency situations), and to ensure there is not a server and/or client error.
 <p align="center">
-  <img width="400" src="https://github.com/sydkeet/fantastic-spork/issues/2#issue-1016613235">
+  <img width="400" src="https://user-images.githubusercontent.com/89217492/136075796-5f0d9fab-9c0e-4906-b790-e813c891e868.jpg">
 </p>
 
 
@@ -35,7 +35,7 @@ Have you ever been urgently needing a response from your professor but had absol
 <img width="400" src="https://github.com/sydkeet/fantastic-spork/issues/1#issue-1016547535">
 
 <p align="center">
-  <img width="400" src="https://github.com/sydkeet/fantastic-spork/issues/1#issue-1016547535">
+  <img width="400" src="https://user-images.githubusercontent.com/89217492/136066754-215c0193-7b47-483e-8915-a7b66cee0966.png">
 </p>
 
 
@@ -518,7 +518,7 @@ Although tests were performed during the development of the application, the mos
 ### Solution
 With our app, there will be additional options when sending your email including radio buttons to decide the purpose behind your email, and checkboxes to select whether your email is urgent or if it even needs a response. It will also notify you once your email has been read by your instructor in real-time.
 <p align="center">
-  <img width="400" src="https://github.com/sydkeet/fantastic-spork/issues/3#issue-1016613933">
+  <img width="400" src="https://user-images.githubusercontent.com/89217492/136075847-b7c77527-b8d7-4503-a4af-c7713a80895e.png">
 </p>
 
 
