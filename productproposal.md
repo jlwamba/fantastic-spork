@@ -28,7 +28,7 @@
 ---
 
 ## Main idea
-Improve the communication betweeen students and professors by adding a tool that will alert users when their email has been: received, opened, or responded to.
+Improve the communication betweeen students and professors by adding a tool that will alert users when their email has been: received, opened, or responded to. This tool will help to answer the 5 W's: who, what, when, where, why.
 
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
 
