@@ -69,12 +69,12 @@ Should email encryption be a thing?
 -Only those that have the private key can decrypt the email
 
 Situation: You sent the wrong email to someone else possibly containing sensitive information. This is a very common mistake that occurs for those with simple email addresses. 
-
+<!--
 <p align="center">
   <img width="500" src="https://user-images.githubusercontent.com/88801826/133133205-dfe4a97a-05a0-4383-bb83-2494b73e3fcf.png">
 </p>
 
-<!--The way in which this could happen is to introduce an intermediate layer among with the user's interface with the platform he uses, which will be attentive to everything the user introduces without altering the native operation of the operating system. This special layer will also be linked to the applications that the user performs, as these will also be registered. Thus, from the most basic operations, such as turning on the system or listing folders in the console, to the most complex ones, will be recorded in the blockchain.-->
+The way in which this could happen is to introduce an intermediate layer among with the user's interface with the platform he uses, which will be attentive to everything the user introduces without altering the native operation of the operating system. This special layer will also be linked to the applications that the user performs, as these will also be registered. Thus, from the most basic operations, such as turning on the system or listing folders in the console, to the most complex ones, will be recorded in the blockchain.-->
 
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
 
