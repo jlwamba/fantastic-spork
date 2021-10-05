@@ -8,7 +8,6 @@
    * [Use case scenario](#Use-case-scenario) 
 * [Objectives](#Objectives)
 * [Scope](#Scope)
-* [Development](#Development)
    * [Architecture](#Architecture) 
    * [Initial configuration](#Initial-configuration)
    * [Parsing the CLI arguments](#Parsing-the-CLI-arguments)
@@ -16,17 +15,14 @@
    * [Handling requests](#Handling-requests)
    * [Leveraging blockchain](#Leveraging-blockchain)
    * [Networking](#Networking)
-     * [Running multiple instances](#Running-multiple-instances)
-     * [The 'Port Communication Problem'](#The-Port-Communication-Problem)
-     * [Broadcasting commmands](#Broadcasting-commands)
+   * [Running multiple instances](#Running-multiple-instances)
+   * [The 'Port Communication Problem'](#The-Port-Communication-Problem)
+   * [Broadcasting commmands](#Broadcasting-commands)
    * [View](#View)
 * [Execution](#Execution)
    * [Tests](#Tests)
-     * [Parcial](#Parcial)
-     * [Full](#Full)
    * [Results](#Results)
      * [Future enhacements](#Future-enhacements) 
-* [Oportunities and challenges](#Oportunities-and-challenges)
 * [Conclusions](#Conclusions)
 * [Multimedia](#Multimedia)
 * [Resource center](#Resource-center)
@@ -97,8 +93,6 @@ Situation: You sent the wrong email to someone else possibly containing sensitiv
 This is gonna be only a prototype of blockchained operating system command line interface (bCLI) and will only accept simple stringed commands, like `ls`, `dir`, `cls`, `clear` or `pwd`, for example. Will be enabled to interact with members of a network and its number of members will be pre-defined, along with the host name and port numbers. It can be runned on a cross platform, like Windows, MacOS or Linux.
 
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
-
-## Development
 
 ### Architecture
 
@@ -534,12 +528,10 @@ Finally, in the main file of the template, we add the information by placing an 
 
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
 
-## Execution
 
 ### Tests
 
 <!--Although tests were performed during the development of the application, the most representative tests that contributed to the outcome of the project are documented below:-->
-
 
 ### Results
 
@@ -549,20 +541,6 @@ We were able to adapt the Blockchain prototype to store the command and applicat
 
 In the end, the developed application, although it only allows the user to execute very basic commands and only a few characters, is able to catch and process them, serving as a demonstration to explain the operation of Blockchain technology and provide an overview of the full scope that can be achieved if its application is continued in this direction. --> 
 
-<a href="#Table-of-contents"><p align="right">Return to the top</p></a>
-
-#### Future enhacements
-
-<!--Of course, development time limited us as to how much functionality, both the prototype and the application itself, could be added. Some of them that we identified and that could be implemented for boosting this applicartion in the future could be:
-
-* Storing the information in a database: whether relational or not, storing all the transactions that the user performs so that it becomes part of a permanent record and not only remains in local memory can be highly beneficial, as it would allow us to have a history of information that would allow us to prepare activity reports or even analysis to improve the development of the application.
-
-* Information views: in addition to a database, it would also be very useful to create dynamic views of the information to be consulted in real time. 
-
-* Query files: the information stored in the database could be directly processed to create basic downloadable query files.
-
-* Obtain information directly from the operating system: this would be useful, for example, to set up the terminal network. Instead of manually adding the network members (which we did in our application but via ports), the application could obtain such data directly from the operating system files, as is the case of the `hosts` file, and process them in the Blockchain structure. 
--->
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
 
 ## Conclusions
