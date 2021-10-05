@@ -64,8 +64,10 @@ The way in which this could happen is to introduce an intermediate layer among w
 ## Objectives
 
 1. Develope a tool that allows user to communicate clearly
-2. BLUF Method
-3. Integrate our prototype so that Canvas and our Student-Professor Communication Mechanism works in a harmonious and networked way.
+2. Integrate our prototype so that Canvas and our Student-Professor Communication Mechanism works in a harmonious and networked way.
+3. BLUF Method
+
+<img width="400" src="https://user-images.githubusercontent.com/89217492/136079952-65a915a6-cf6d-4d5f-90eb-c533cf3100b5.jpg">
 
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
 
