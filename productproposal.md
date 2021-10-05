@@ -84,7 +84,7 @@ This is going to be a prototype of the student-professor communiction mechanism.
 
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
 
-### Architecture
+<!--### Architecture
 
 <!--For the purpose of our objective, the idea is to build a prototype application that visually resembles a command line, but internally can actually access the resources of this, behaving as such and being able to perform the same operations as if it were running natively within the operating system.
 
@@ -521,7 +521,7 @@ Finally, in the main file of the template, we add the information by placing an 
 
 ### Tests
 
-<!--Although tests were performed during the development of the application, the most representative tests that contributed to the outcome of the project are documented below:-->
+Although tests were performed during the development of the application, the most representative tests that contributed to the outcome of the project are documented below:-->
 
 ### Solution
 With our app, there will be additional options when sending your email including radio buttons to decide the purpose behind your email, and checkboxes to select whether your email is urgent or if it even needs a response. It will also notify you once your email has been read by your instructor in real-time.
