@@ -89,7 +89,7 @@ The way in which this could happen is to introduce an intermediate layer among w
 
 ## Scope
 
-This is going to be a prototype of the student-professor communiction mechanism. It will be a form that will be able to generate a notification to send back to the sender such as if the email was received, plans on responding, and received by the correct client using the BLUF method.  It can be ran on a cross platform, like Windows, MacOS or Linux.
+This is going to be a prototype of the student-professor communiction mechanism. It will be a form that will be able to generate a notification to send back to the sender such as if the email was received, plans on responding, and received by the correct client using the BLUF method which stands for "bottom-line-up-front". This is a military communications acronym that helps to provide clairty in emails by lists the ones with keywords at the top such as "Important." It can be ran on a cross platform, like Windows, MacOS or Linux.
 
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
 
