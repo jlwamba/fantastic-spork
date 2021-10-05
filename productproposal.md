@@ -44,7 +44,7 @@ We want to create an app that sends user's a notifcation when their email is rec
 
 ## Background
 
-The advances that technology has made in recent years have allowed us to change the way we do things, incorporating new techniques and new protocols to the activities that we have been doing for years. The economic, commerce and health sectors have been among the most benefited, as they have been able to take advantage of new technological developments to boost their growth within the industry and outside the industry to benefit human beings. 
+<!--The advances that technology has made in recent years have allowed us to change the way we do things, incorporating new techniques and new protocols to the activities that we have been doing for years. The economic, commerce and health sectors have been among the most benefited, as they have been able to take advantage of new technological developments to boost their growth within the industry and outside the industry to benefit human beings. 
 
 The emergence of cryptocurrencies, such as Bitcoin, has revolutionized the contemporary economy. But not only that, but also all the technology behind them, as it has been used in other fields to take advantage of their intrinsic properties. Thus, there have been developments that allow validating the security and integrity of data through digital certificates or proposals to incorporate this technology to the electoral systems of the communities. The possibilities are endless. 
 
@@ -60,7 +60,7 @@ Any traditional OS also executes actions based on user commands which can be vie
   <img width="400" src="https://user-images.githubusercontent.com/88801826/131191074-b6e45d91-692a-466e-b12b-68cd1dcf7d06.png">
 </p>
 
-Since it is a very recent technology, developers are still monitoring the performance of their creations, although some options are already on the market. For example, NYNJA vOS offers a platform that supports a communication layer offering text, voice, video conferencing, and project management tools, a secure payments layer for commercial transactions. Also supports a marketplace for commercial activities. Also the company Quant Network has an interesting approach to this subject with it enterprise OS that interconnects blockchain legacy, current or future platforms and networks.
+Since it is a very recent technology, developers are still monitoring the performance of their creations, although some options are already on the market. For example, NYNJA vOS offers a platform that supports a communication layer offering text, voice, video conferencing, and project management tools, a secure payments layer for commercial transactions. Also supports a marketplace for commercial activities. Also the company Quant Network has an interesting approach to this subject with it enterprise OS that interconnects blockchain legacy, current or future platforms and networks.-->
 
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
 
@@ -78,17 +78,17 @@ Situation: You sent the wrong email to someone else possibly containing sensitiv
   <img width="500" src="https://user-images.githubusercontent.com/88801826/133133205-dfe4a97a-05a0-4383-bb83-2494b73e3fcf.png">
 </p>
 
-The way in which this could happen is to introduce an intermediate layer among with the user's interface with the platform he uses, which will be attentive to everything the user introduces without altering the native operation of the operating system. This special layer will also be linked to the applications that the user performs, as these will also be registered. Thus, from the most basic operations, such as turning on the system or listing folders in the console, to the most complex ones, will be recorded in the blockchain.
+<!--The way in which this could happen is to introduce an intermediate layer among with the user's interface with the platform he uses, which will be attentive to everything the user introduces without altering the native operation of the operating system. This special layer will also be linked to the applications that the user performs, as these will also be registered. Thus, from the most basic operations, such as turning on the system or listing folders in the console, to the most complex ones, will be recorded in the blockchain.-->
 
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
 
 ## Objectives
 
-Demonstrate that the integration of operating system commands with blockchain is possible by:
+<!--Demonstrate that the integration of operating system commands with blockchain is possible by:
 
 1. Developing a command line interface terminal (CLI) to serve as a basis for integrating blockchain functionality.
 2. Adapting the blockchain prototype to incorporate the commands into its structure.
-3. Integrate both prototypes so that they work in a harmonious and networked way, including several instances of them.
+3. Integrate both prototypes so that they work in a harmonious and networked way, including several instances of them.-->
 
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
 
@@ -102,7 +102,7 @@ This is gonna be only a prototype of blockchained operating system command line 
 
 ### Architecture
 
-For the purpose of our objective, the idea is to build a prototype application that visually resembles a command line, but internally can actually access the resources of this, behaving as such and being able to perform the same operations as if it were running natively within the operating system.
+<!--For the purpose of our objective, the idea is to build a prototype application that visually resembles a command line, but internally can actually access the resources of this, behaving as such and being able to perform the same operations as if it were running natively within the operating system.
 
 Therefore, our application to be developed will be based on Electron, which is a multiprocess and multiplatform architecture framework to create desktop applications using web technologies. Electron integrates Node.js to access the system resources in the backend, and the Chromium browser to build the frontend. With this, we are able to use HTML, CSS and Javascript to customize what is displayed to the user. 
 
@@ -112,13 +112,13 @@ Summarizing the above, the `main` process can be seen as a browser, and the `ren
 
 <p align="center">
   <img width="500" src="https://user-images.githubusercontent.com/88801826/133124078-a40ec00a-4548-4b29-bd34-b15e5b8453a0.png">
-</p>
+</p> -->
 
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
 
 ### Initial configuration
 
-First of all, we need to create the visual environment of the application. Based on some [tutorials](https://www.youtube.com/watch?v=vhDBbbMJWoY), reviewing [Electron's official documentation](https://www.electronjs.org/docs/) and consulting forums to solve compilation errors of some modules, I found the way to do it. 
+<!--First of all, we need to create the visual environment of the application. Based on some [tutorials](https://www.youtube.com/watch?v=vhDBbbMJWoY), reviewing [Electron's official documentation](https://www.electronjs.org/docs/) and consulting forums to solve compilation errors of some modules, I found the way to do it. 
 
 > Modules installed `npm i electron` | `npm i electron-tools` | `npm i node-pty xterm` | `npm i electron-rebuild`
 
@@ -140,12 +140,12 @@ The result is a window that looks and behaves like a command line interface term
 <p align="center">
   <img width="500" src="https://user-images.githubusercontent.com/88801826/133009605-4ce201f8-6233-41eb-a2f8-150baff5ecff.JPG">
 </p>
-
+-->
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
 
 ### Parsing the CLI arguments
 
-Once we have the CLI running without any error, the next challenge is how can I process the information that the user enters in it, with the objective of processing them later in a blockchain structure. So far, the default functionality of the application allows us to cache in `index.js` each of the characters we enter and display them at the same time in the window. 
+<!--Once we have the CLI running without any error, the next challenge is how can I process the information that the user enters in it, with the objective of processing them later in a blockchain structure. So far, the default functionality of the application allows us to cache in `index.js` each of the characters we enter and display them at the same time in the window. 
 
 However, from this action or event, we need the complete command, not the characters separately, to be sent to the main process. Recall that the main process does not have direct communication with the rendering process. To do this there is the Inter-Process Communication. With this, `main.js` can access the `ipcMain` module, and `index.js` can access the `ipcRenderer` module, where the former is attentive to the events that happen in the latter or to the information it sends. 
 
@@ -193,13 +193,13 @@ Here, the main process receives the information from the command to process it f
 
 <p align="center">
   <img width="500" src="https://user-images.githubusercontent.com/88801826/133009462-2eb5b72e-ab83-41d5-a925-22171d6e1361.gif">
-</p>
+</p> -->
 
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
 
 ### Enhacing the CLI as a REST API
 
-Up to this point, the application can already capture and process the commands the user enters. What to do with them now? The Blockchain prototype we have and how it works is based on objects manipulated through Uniform Resource Identifiers (URIs), with are the formal concept of URLs, helping us to point to a resource over a network. So, a crucial step to be able to incorporate blockchain operations through HTTP in our application is to modify it to work as such. In other words, we need to enable the backend of our application as a REST API.
+<!--Up to this point, the application can already capture and process the commands the user enters. What to do with them now? The Blockchain prototype we have and how it works is based on objects manipulated through Uniform Resource Identifiers (URIs), with are the formal concept of URLs, helping us to point to a resource over a network. So, a crucial step to be able to incorporate blockchain operations through HTTP in our application is to modify it to work as such. In other words, we need to enable the backend of our application as a REST API.
 
 REST is any interface between systems that uses HTTP to obtain data or generate operations on that data in all possible formats, including JSON. It establishes a client-server protocol for the exchange of information between the backend and the frontend.  
 
@@ -353,14 +353,14 @@ ipc.on('terminal.command', function (event, data) {
 Once the command is received, it becomes part of a data structure containing the main transaction information. At first I thought of eliminating the "amount" field, however, it can be useful to sum up how many commands the terminal executed. For now, we statically define the sender as `user3000@localhost.com` and the recipient as `app@server.com`, although the latter might not necessarily be a server but any application or service that the user is using.
 
 The packet is then sent via a POST request via URI to the method that creates a new transaction. If it was successful, it automatically requests a GET request to make the corresponding validation and become part of the blockchain. As you can see, it is an automatic process that is executed every time the user enters a new command in the terminal. 
-
+-->
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
 
 ### Networking 
 
 #### Running multiple instances
 
-Up to this point, our bCLI already has enough functionality to run without any problem in a single instance, that is, without being connected to a network of bCLIs. But to reach this last point and run the overall functionality of the prototype, it is first necessary to run several instances of the application. This was the hardest part of the project. 
+<!--Up to this point, our bCLI already has enough functionality to run without any problem in a single instance, that is, without being connected to a network of bCLIs. But to reach this last point and run the overall functionality of the prototype, it is first necessary to run several instances of the application. This was the hardest part of the project. 
 
 The idea was simple: run multiple instances of bCLIs, each listening to its own server. Up to this point we already have Express installed, and with Nodemon running, we can pull up as many "servers" as we want along with their ports. However, we have only one Electron application. What we need are several instances of that application running on different servers, each on its own port.
 
@@ -385,13 +385,13 @@ On `app.js`, we add the simple server instruction:
 
 ```javascript
 var electron = require('electron-connect').server.create();
-```
+``` -->
 
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
 
 #### The 'Port Communication Problem'
 
-So far, when we run the bCLI with Nodemon, it wakes up and automatically creates a service listening to the client on a certain process port thanks to the Electron Connect module. But if we try to run another instance, we get an error, because the port is occupied by the first instance. You would think that you could dynamically add the ports by taking them from the nodemon command argument and specifying them in the client and server instructions. This is possible in `app.js`, but not for `main.js`, because we are using nodemon within the first script.
+<!--So far, when we run the bCLI with Nodemon, it wakes up and automatically creates a service listening to the client on a certain process port thanks to the Electron Connect module. But if we try to run another instance, we get an error, because the port is occupied by the first instance. You would think that you could dynamically add the ports by taking them from the nodemon command argument and specifying them in the client and server instructions. This is possible in `app.js`, but not for `main.js`, because we are using nodemon within the first script.
 
 As we saw in the description of Electron, the application architecture does not facilitate communication between the process and the server, even when using socket communication, IPC or global variables. To solve this problem, the viable solution would be to obtain the listening port through GET requests to the server from the main process and once there assign them to the corresponding instructions. 
 
@@ -459,13 +459,13 @@ The only thing left now is to update all the static port asignation and the HTTP
 .post(`http://localhost:${serverPort}/transaction/broadcast`)
 ```
 
-So far, by now and with its limitations, we can finally run as many instances as we specify using nodemon commands. 
+So far, by now and with its limitations, we can finally run as many instances as we specify using nodemon commands. -->
 
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
 
 #### Broadcasting commands
 
-Lastly, what we want is that, once the bCLI is launched, it connects to the network of the others available bCLIs. To do this, we add in an array with the available instances (in the future, the list can be consulted directly from the system files, for example, in UNIX/Linux OS, from the `/etc/hosts` file) and iterate the reigistration with the network members excluding itself. We do this on the process file `main.js`, when the app is ready, at the same time when we get the port information from the server file.
+<!--Lastly, what we want is that, once the bCLI is launched, it connects to the network of the others available bCLIs. To do this, we add in an array with the available instances (in the future, the list can be consulted directly from the system files, for example, in UNIX/Linux OS, from the `/etc/hosts` file) and iterate the reigistration with the network members excluding itself. We do this on the process file `main.js`, when the app is ready, at the same time when we get the port information from the server file.
 
 ```javascript
 //Register on a network at launch
@@ -485,13 +485,13 @@ for (let networkNode of currentNetwork) {
 }            
 ```
 
-Then, when the bCLI is up, we access a GET request to make the connections with the network members. With the latter, everything we do and the transactions/commands we execute inside the terminal will be registered in the chain and sent to all the members of the network that are connected. 
+Then, when the bCLI is up, we access a GET request to make the connections with the network members. With the latter, everything we do and the transactions/commands we execute inside the terminal will be registered in the chain and sent to all the members of the network that are connected. -->
 
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
 
 ## View
 
-To obtain a more user-friendly view of the data, we will add to the frontend of our project the template provided for the original prototype. This new view will be used for data audit type review, so we will call it Audit Page. 
+<!--To obtain a more user-friendly view of the data, we will add to the frontend of our project the template provided for the original prototype. This new view will be used for data audit type review, so we will call it Audit Page. 
 
 <p align="center">
   <img width="500" src="https://user-images.githubusercontent.com/88801826/133298975-2d4fa221-79c5-4610-ab5e-5b9776819bf3.png">
@@ -530,7 +530,7 @@ Finally, in the main file of the template, we add the information by placing an 
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/88801826/133305572-06eff88a-7a58-46c3-99c4-e3620221b5b2.jpg">
-</p>
+</p> -->
 
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
 
@@ -538,61 +538,22 @@ Finally, in the main file of the template, we add the information by placing an 
 
 ### Tests
 
-Although tests were performed during the development of the application, the most representative tests that contributed to the outcome of the project are documented below:
+<!--Although tests were performed during the development of the application, the most representative tests that contributed to the outcome of the project are documented below:-->
 
-#### Parcial
-
-During the development of the bCLI, isolated tests were carried out for the insertion of data in the block structures and their validation, all through URIs and with the help of a software specialized in API requests called Postman. We raise the application with the command `npm run tty0`, which has associated the instructions `nodemon app.js 3000 http://localhost:3000`, which means that this terminal will be operating on port 3000 of the server.
-
-<p align="center">
-  <img width="500" src="https://user-images.githubusercontent.com/88801826/133302471-78ae031f-6dfa-494d-a8a0-bc0533cc66fe.JPG">
-</p>
-
-Once the data has been sent, we check the block through its URI to verify that it is indeed there. In these isolated tests we did not yet have a connection to the terminal network, as the objective was to check that the methods and their calls worked correctly.
-
-<p align="center">
-  <img width="500" src="https://user-images.githubusercontent.com/88801826/133302594-8354ab62-d7ba-48e6-aa9b-578a021fb180.gif">
-</p>
-<a href="#Table-of-contents"><p align="right">Return to the top</p></a>
-
-#### Full
-
-In this test our application is already finished. We raise two instances by executing the commands:
-
-* `npm run tty0` associated with ` nodemon app.js 3000 http://localhost:3000`
-* `npm run tty1` associated with ` nodemon app.js 3001 http://localhost:3001`
-
-For the two terminals to be raised correctly it is necessary to wait a few seconds after raising the first one, since it is necessary for the server port to become free in order to be able to attend the request of the second instance. 
-
-Once this is done, either on terminal on the port 3000 or terminal on the port 3001, a command is executed. Postman is no longer necessary because the methods and calls are already within the internal structure of the application. Lets hit this test on port 3001.
-
-<p align="center">
-  <img width="500" src="https://user-images.githubusercontent.com/88801826/133303453-c5a542ae-28d8-4d11-a819-26170c693cf6.gif">
-</p>
-
-We then open a browser to check that the transaction was successful.
-
-<p align="center">
-  <img width="500" src="https://user-images.githubusercontent.com/88801826/133303248-ffbf2a07-4389-426c-81f8-c193ddd90d7c.gif">
-</p>
-
-If we check both blockchains, we can see that indeed everything matches and contain the same information from each other (except for the timestamp, as the instances of the application were up not at the same time). Let's also note that the user who executed the command is now `user3001`.
-
-<a href="#Table-of-contents"><p align="right">Return to the top</p></a>
 
 ### Results
 
-With the tests performed, we were able to verify that the development of our application was completed for the purposes stated in the objectives and scope of the project. We were able to emulate a terminal using web technologies, such as Electron with Node.js. 
+<!--With the tests performed, we were able to verify that the development of our application was completed for the purposes stated in the objectives and scope of the project. We were able to emulate a terminal using web technologies, such as Electron with Node.js. 
 
 We were able to adapt the Blockchain prototype to store the command and application's own information. The integration of several instances also represented a challenge, but fortunately it could be completed by integrating basic concepts of web requests. We even managed to customize a web view for the information.
 
-In the end, the developed application, although it only allows the user to execute very basic commands and only a few characters, is able to catch and process them, serving as a demonstration to explain the operation of Blockchain technology and provide an overview of the full scope that can be achieved if its application is continued in this direction. 
+In the end, the developed application, although it only allows the user to execute very basic commands and only a few characters, is able to catch and process them, serving as a demonstration to explain the operation of Blockchain technology and provide an overview of the full scope that can be achieved if its application is continued in this direction. --> 
 
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
 
 #### Future enhacements
 
-Of course, development time limited us as to how much functionality, both the prototype and the application itself, could be added. Some of them that we identified and that could be implemented for boosting this applicartion in the future could be:
+<!--Of course, development time limited us as to how much functionality, both the prototype and the application itself, could be added. Some of them that we identified and that could be implemented for boosting this applicartion in the future could be:
 
 * Storing the information in a database: whether relational or not, storing all the transactions that the user performs so that it becomes part of a permanent record and not only remains in local memory can be highly beneficial, as it would allow us to have a history of information that would allow us to prepare activity reports or even analysis to improve the development of the application.
 
@@ -601,27 +562,7 @@ Of course, development time limited us as to how much functionality, both the pr
 * Query files: the information stored in the database could be directly processed to create basic downloadable query files.
 
 * Obtain information directly from the operating system: this would be useful, for example, to set up the terminal network. Instead of manually adding the network members (which we did in our application but via ports), the application could obtain such data directly from the operating system files, as is the case of the `hosts` file, and process them in the Blockchain structure. 
-
-<a href="#Table-of-contents"><p align="right">Return to the top</p></a>
-
-## Oportunities and challenges
-
-In recent years, the issue of data security and privacy has become very important. It is so important that governments have implemented specific policies for its control and management. Platforms are required to protect the integrity of users' information and to provide them with security certainty. 
-
-The digital commerce boom has also been impressive in recent decades. Today, most transactions are carried out digitally, so the applications and platforms used for this purpose must have excellent security for its operation, in addition to providing efficient management for both customers and companies.
-
-While a blockchain operating system would offer many unequivocal advantages in terms of these last points, the truth is that its implementation and integration would not be so easy for three reasons: the change culture, the cost and the market.
-
-We are currently so used to traditional operating systems that adopting another one would be somewhat uncomfortable, and many of the productive applications we use today would also have to be migrated to the new platform in order to continue to be used. And even if the functionality of the blockchain operating system were the same as any other traditional operating system, we would still have reservations about its security and stability, especially for applications with a large-scale deployment.
-
-An important and paradoxical point at this point is who can access the system's transaction information, i.e., the privacy of the user's actions. The default system would offer a great level of detail of the movements made. Is this valid? There are conflicting opinions: on the one hand, there are those who defend data transparency, on the other hand there are those who fight for strict privacy. It is a question whose answer will undoubtedly generate a great deal of debate on this point. My comment would be in relation to good data management for purposes previously established and agreed upon by all parties involved; it is proven that Blockchain technology does offer data protection through highly secure and effective algorithms.
-
-The second factor is cost. The infrastructure required to support the operations of a blockchain operating system is very expensive, as supporting all its complex operations requires a lot of processing power and storage. Not all companies could afford the transition. Moreover, it also leads to a lot of investment in addition to the monetary one. To learn a new operating system requires a knowledge base deep enough to give certainty about its correct operation, and this, paradoxically, happens when users are completely immersed in it without knowing enough yet. Human resources and their training remain essential at this point.
-
-And finally there is the market. Blockchain technology has fortunately been permeating more sectors of human activities. However, at the moment it is only concentrated in two main areas: commercial and economic. For the blockchain operating system to have a wider reach, it would require the adoption of more sectors, such as healthcare, government, etc. Currently, the opportunity niche of this new operating system is very small compared to the deployment of the others. 
-
-For an operating system to be successful in economic terms, it needs to be adopted by the majority market and its cost must not be too high; for it to be successful in functional terms, it requires users who have gone through the change culture and support its use. 
-
+-->
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
 
 ## Conclusions
@@ -648,7 +589,7 @@ The contemporary trends of commerce will force us to adapt new ways to do things
 
 ## Resource center
 
-_The blockchain prototype used in this project was generously provided by Dr. Barry Cumbie, from the University of North Alabama, on the United States, in conjunction with the Anáhuac University, on México, for the course of Blockchain with academic purposes_.
+<!--_The blockchain prototype used in this project was generously provided by Dr. Barry Cumbie, from the University of North Alabama, on the United States, in conjunction with the Anáhuac University, on México, for the course of Blockchain with academic purposes_.
 
 Go to the [bCLI  repository ](https://github.com/rusejo/bCLI) if you want to download and test the project.
 
@@ -689,6 +630,6 @@ Go to my [raw notes and dev journey](https://github.com/rusejo/blockchain-journe
     <a href="https://searchapparchitecture.techtarget.com/definition/RESTful-API">
         S. Gillis, A. (2020, September). <i>REST API (RESTful API) </i> TechTarget
     </a>
-</details>
+</details> -->
 
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
