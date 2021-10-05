@@ -1,5 +1,5 @@
 # Student-Professor Communication Mechanism
-
+This product is made by Jerry, Sydney, and Trey. Review our team member Wiki here: https://github.com/sydkeet/fantastic-spork/wiki/Team-Members
 ## Table of contents
 
 * [Main idea](#Main-idea)
@@ -8,8 +8,7 @@
 * [Use case scenario](#Use-case-scenario) 
 * [Objectives](#Objectives)
 * [Scope](#Scope)
-* [Solution](#Results) 
-* [Conclusions](#Conclusions)
+* [Solution](#Solution) 
 * [Multimedia](#Multimedia)
 * [Resource center](#Resource-center)
 ---
@@ -526,15 +525,6 @@ With our app, there will be additional options when sending your email including
 
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
 
-## Conclusions
-
-As we can see, blockchain operating systems offer us a full bunch of software by taking advantage of all of the overall blockchain concepts, allowing the integration of the current and future Blockchain Ecosystem on a single operating system platform. The efficiency, reliability, privacy and security are key values of this highly new approach of interacting with computer systems.
-
-The implementation of this technology in a current operating system is not simple, since it would have to be integrated with its kernel to record the tasks that users perform in it. On the other hand, its complete development is quite complex, since new technologies have to be integrated with the basic principles to create a completely new operating logic. In both cases, a large investment of resources is required. However, this first theoretical and practical approach was very compelling to learn the basics of Blockchain concepts and its integration with the entire technological ecosystem that surrounds it. 
-
-The contemporary trends of commerce will force us to adapt new ways to do things, but we must be cautious of how our data is managed by understanding, even a little, the way all of it works. It’s clear that this is just a very important checkpoint in the race to develop highly advanced technology that will capitalize and empower the digital world towards revolutionary horizons.
-
-<a href="#Table-of-contents"><p align="right">Return to the top</p></a>
 
 ## Multimedia
 
