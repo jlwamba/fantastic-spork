@@ -63,11 +63,9 @@ The way in which this could happen is to introduce an intermediate layer among w
 
 ## Objectives
 
-<!--Demonstrate that the integration of operating system commands with blockchain is possible by:
-
-1. Developing a command line interface terminal (CLI) to serve as a basis for integrating blockchain functionality.
-2. Adapting the blockchain prototype to incorporate the commands into its structure.
-3. Integrate both prototypes so that they work in a harmonious and networked way, including several instances of them.-->
+1. Develope a tool that allows user to communicate clearly
+2. BLUF Method
+3. Integrate our prototype so that Canvas and our Student-Professor Communication Mechanism works in a harmonious and networked way.
 
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
 
@@ -77,19 +75,6 @@ This is going to be a prototype of the student-professor communiction mechanism.
 
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
 
-<!--### Architecture
-
-<!--For the purpose of our objective, the idea is to build a prototype application that visually resembles a command line, but internally can actually access the resources of this, behaving as such and being able to perform the same operations as if it were running natively within the operating system.
-
-Therefore, our application to be developed will be based on Electron, which is a multiprocess and multiplatform architecture framework to create desktop applications using web technologies. Electron integrates Node.js to access the system resources in the backend, and the Chromium browser to build the frontend. With this, we are able to use HTML, CSS and Javascript to customize what is displayed to the user. 
-
-Since Electron is in charge of integrating the backend and the frontend in a single architecture, we will have two important processes. The `main` and the `renderer`. The first one controls the state of the application while the second one controls the interface with the user. When an Electron application is executed, the `main` process is launched, which is in charge of accessing the system resources and starting the `renderer` process. An important point to mention is that the `main` process does not have direct access to frontend methods and resources.
-
-Summarizing the above, the `main` process can be seen as a browser, and the `renderer` process as one of its tabs. 
-
-<p align="center">
-  <img width="500" src="https://user-images.githubusercontent.com/88801826/133124078-a40ec00a-4548-4b29-bd34-b15e5b8453a0.png">
-</p> -->
 
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
 
