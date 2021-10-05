@@ -554,9 +554,7 @@ The contemporary trends of commerce will force us to adapt new ways to do things
 
 ## Multimedia
 
-<a href="https://www.loom.com/embed/a9af0b0d6cee44b18e765589c930ac2f" target="_blank"><p align="center">
-  <img width="400" src="https://user-images.githubusercontent.com/88801826/133354136-4fe76e8b-4064-4b6e-bd92-45e787386f7d.png">
-</p></a>
+<a href="https://youtu.be/ObXezlYKIEc" target="_blank"></a>
 
 <a href="https://www.loom.com/embed/0845843780544510ae45a5c5cf03b2e5" target="_blank"><p align="center">
   <img width="400" src="https://user-images.githubusercontent.com/88801826/133354529-4e734268-96af-4ed3-835e-f9c69167e7f5.png">
