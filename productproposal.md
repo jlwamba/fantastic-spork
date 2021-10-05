@@ -174,13 +174,21 @@ This is achieved by installing [Express](https://expressjs.com/) in our project.
 Then, we create a file and name it `app.js`. This file will serve as our request server. We add the following lines:
 
 ```javascript
-const express = require('express')
-const app = express()
-const port = 3000
+const app = express();
 
-app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`)
-})
+app.get('/',function(req,res) {
+    res.send('h<3>Student-Professor Communication Mechanism</h3>');
+
+});
+
+
+app.get('/about', function(req,res) {
+    res.sendFile('/README.md', { root: __dirname });
+
+});
+
+
+app.listen(process.env.PORT || 3000);
 ```
 
 In the app variable we assign the server and in the port variable the port through which the communication with the URIs will be established.
@@ -248,23 +256,9 @@ This change will cause the port number to be taken from the number two argument 
 
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
 
-### Leveraging blockchain
-
-We get to the core of the project, the added value that our CLI will have. We need to incorporate the functionalities and goodness of the blockchain with the execution of the application. At this point, all the previous work that has been done was aimed at facilitating its integration with the application. The next step is turn our CLI into a blockchained command line interface (bCLI)
-
-What we want is that, once the application is started and registered over the network, and the user has executed a command, it is added to a blockchain and automatically verified. By now, we will deal with the network issue later. Also, let's leave for now the proof of work, i.e. the business rule of our entire blockchain process, as is. Depending on the degree of infrastructure available, in a future implementation, this hash could be used to identify a specific blockchain operating system or even as a key to develop applications within the same platform. 
-
-As a first step, we added the blockchain prototype code to the project folder, named `blockchain.js`, which contains the base structure to convert the execution of our application into joined block structures. However, before using them, it is necessary to make some modifications for the purpose of the application.
-
 <p align="center">
   <img width="500" src="https://user-images.githubusercontent.com/88801826/133127679-8b642aed-b4aa-443a-a47a-428c53838103.png">
 </p>
-
-In `Blockchain()` we modify `this.createNewBlock(100,'0','0','0');`
-
-Therefore, each new block that is created, in addition to the other parameters, the last one will correspond to that of the command. 
-
-Similarly, the matching must be performed in the method when a new transaction is created. 
 
 ```javascript
 Blockchain.prototype.createNewTransaction = function (amount, sender, recipient, command) {
