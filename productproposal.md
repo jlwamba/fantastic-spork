@@ -32,7 +32,6 @@ We want to create an app that sends user's a notifcation when their email is rec
 
 Have you ever been urgently needing a response from your professor but had absolutely no clue if they've even seen it? Canvas messages only allow the choice to select a course, recipient, and subject. While the subject bar gives you an opportunity to inform your instructor of the purpose behind your message, many people leave it blank.  Another problem is not knowing whether or not your instructor has seen your message. This can be stressful when you would like an immediate response or the message is urgent.  Our product is designed to give immediate feedback to students as soon as the professor has seen your message depending on keywords that are given in the subject line. It also includes buttons to select the type of message you plan on sending. Ex: Urgent, Homework Help, Attendance, etc. 
 
-<img width="400" src="https://github.com/sydkeet/fantastic-spork/issues/1#issue-1016547535">
 
 <p align="center">
   <img width="400" src="https://user-images.githubusercontent.com/89217492/136066754-215c0193-7b47-483e-8915-a7b66cee0966.png">
