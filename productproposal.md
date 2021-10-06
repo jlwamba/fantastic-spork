@@ -8,7 +8,7 @@ This product is made by Jerry, Sydney, and Trey. Review our team member Wiki her
 * [Use case scenario](#Use-case-scenario) 
 * [Objectives](#Objectives)
 * [Scope](#Scope)
-* [Connect to Express](Express)
+* [Connect to Express](#Express)
 * [Solution](#Solution) 
 * [Resources](#Resources)
 ---
@@ -51,12 +51,7 @@ As a professor
 I want standard messaging
 So That I can keep track, be helpful, turn into value for others, & not have to play detective
 
-<!--
-<p align="center">
-  <img width="500" src="https://user-images.githubusercontent.com/88801826/133133205-dfe4a97a-05a0-4383-bb83-2494b73e3fcf.png">
-</p>
-
-The way in which this could happen is to introduce an intermediate layer among with the user's interface with the platform he uses, which will be attentive to everything the user introduces without altering the native operation of the operating system. This special layer will also be linked to the applications that the user performs, as these will also be registered. Thus, from the most basic operations, such as turning on the system or listing folders in the console, to the most complex ones, will be recorded in the blockchain.-->
+<img width="500" src="https://user-images.githubusercontent.com/89217492/136135381-68bd38d0-ce9b-4f30-9245-9ca9c02d889e.png">
 
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
 
@@ -76,7 +71,8 @@ This is going to be a prototype of the student-professor communiction mechanism.
 
 
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
-## Connect to Express
+
+### Connect to Express
 
 ```javascript
 const express = require('express')
@@ -99,7 +95,7 @@ With our app, there will be additional options when sending your email including
 
 ## Multimedia
 
-<a href="https://youtu.be/ObXezlYKIEc" target="_blank"></a>
+<!--<a href="https://youtu.be/ObXezlYKIEc" target="_blank"></a>
 
 <a href="https://www.loom.com/embed/0845843780544510ae45a5c5cf03b2e5" target="_blank"><p align="center">
   <img width="400" src="https://user-images.githubusercontent.com/88801826/133354529-4e734268-96af-4ed3-835e-f9c69167e7f5.png">
