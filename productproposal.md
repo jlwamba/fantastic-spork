@@ -8,9 +8,9 @@ This product is made by Jerry, Sydney, and Trey. Review our team member Wiki her
 * [Use case scenario](#Use-case-scenario) 
 * [Objectives](#Objectives)
 * [Scope](#Scope)
+* [Connect to Express](Express)
 * [Solution](#Solution) 
-* [Multimedia](#Multimedia)
-* [Resource center](#Resource-center)
+* [Resources](#Resources)
 ---
 
 ## Main idea
@@ -76,7 +76,7 @@ This is going to be a prototype of the student-professor communiction mechanism.
 
 
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
-# Connect to Express
+## Connect to Express
 
 ```javascript
 const express = require('express')
@@ -109,12 +109,7 @@ With our app, there will be additional options when sending your email including
 
 ## Resource center
 
-<!--_The blockchain prototype used in this project was generously provided by Dr. Barry Cumbie, from the University of North Alabama, on the United States, in conjunction with the Anáhuac University, on México, for the course of Blockchain with academic purposes_.
-
-Go to the [bCLI  repository ](https://github.com/rusejo/bCLI) if you want to download and test the project.
-
-Go to my [raw notes and dev journey](https://github.com/rusejo/blockchain-journey/blob/main/bcli-dev-journal.md) if you want to to know the draft of the development of this project.
-
+<!--
 <details>
     <summary>Click here to see the <b>Source Information.</b></summary>
     <a href="https://www.guru99.com/operating-system-tutorial.html"><br />
