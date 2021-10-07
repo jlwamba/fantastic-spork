@@ -1,4 +1,5 @@
 Please review our productproposal.md code to view our product proposal.
+Review our Product Backlog on the Projects tab
  [Team Product Proposal](https://github.com/sydkeet/fantastic-spork/wiki/Team-Product-Proposal)\
 [Team Attributes](https://github.com/sydkeet/fantastic-spork/wiki/Team-Attributes)
 
