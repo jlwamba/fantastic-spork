@@ -1,0 +1,28 @@
+CREATE DATABASE teamproj;
+
+USE teamproj;
+CREATE TABLE professors 
+(
+    id int primary key auto_increment, 
+    name varchar(50), 
+    email varchar(50),
+    username varchar(50)
+);
+
+INSERT INTO professors (name, email, username) VALUES ('Cumbie, Barry','bcumbie@una.edu');
+INSERT INTO professors (name, email, username) VALUES ('Watson, Jason','jwatson5@una.edu');
+INSERT INTO professors (name, email, username) VALUES ('Crabtree, John', jcrabtree@una.edu');
+
+
+CREATE TABLE students 
+(
+    id int primary key auto_increment, 
+    name varchar(50), 
+    username varchar(50),
+    email varchar(50)
+);
+
+
+INSERT INTO students (name, username, email) VALUES ('Keeton, Sydney', 'skeeton1@una.edu);
+INSERT INTO students (name, username, email) VALUES ('Washington, Trey', 'twashington3@una.edu');
+INSERT INTO students (name, username, email) VALUES ('Lwamba, Jerry', jlwamba@una.edu');
