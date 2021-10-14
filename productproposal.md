@@ -592,7 +592,6 @@ The contemporary trends of commerce will force us to adapt new ways to do things
 <a href="https://youtu.be/ObXezlYKIEc" target="_blank"></a>
 =======
 
-## Multimedia
 
 <!--<a href="https://youtu.be/ObXezlYKIEc" target="_blank"></a>
 >>>>>>> 9b2442be90a0f4ea73b9b7d99c7456ebf0ba2f97
