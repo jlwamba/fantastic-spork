@@ -1,5 +1,9 @@
 # Student-Professor Communication Mechanism
+<<<<<<< HEAD
 
+=======
+This product is made by Jerry, Sydney, and Trey. Review our team member Wiki here: https://github.com/sydkeet/fantastic-spork/wiki/Team-Members
+>>>>>>> 9b2442be90a0f4ea73b9b7d99c7456ebf0ba2f97
 ## Table of contents
 
 * [Main idea](#Main-idea)
@@ -8,10 +12,16 @@
 * [Use case scenario](#Use-case-scenario) 
 * [Objectives](#Objectives)
 * [Scope](#Scope)
+<<<<<<< HEAD
 * [Solution](#Results) 
 * [Conclusions](#Conclusions)
 * [Multimedia](#Multimedia)
 * [Resource center](#Resource-center)
+=======
+* [Connect to Express](#Express)
+* [Solution](#Solution) 
+* [Resources](#Resources)
+>>>>>>> 9b2442be90a0f4ea73b9b7d99c7456ebf0ba2f97
 ---
 
 ## Main idea
@@ -20,17 +30,34 @@ This is a proposal of our prototype Student-Professor Communication Mechanism. T
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
 
 ## Overview
+<<<<<<< HEAD
 We want to create an app that sends user's a notifcation when their email is received, viewed, and/or intended on being responded to. As students, we want to create this to to ensure it is received by the correct contact(s), depending on the nature of the email (ex. emergency situations), and to ensure there is not a server and/or client error.
+=======
+We want to create an app that sends user's a notifcation when their email is received, viewed, and/or intended on being responded to. As students, we want to create this to to ensure it is received by the correct contact(s), depending on the nature of the email (ex. emergency situations), and to ensure there is not a server and/or client error. We will also illistrate the effectiveness of the BLUF Method.
+<p align="center">
+  <img width="400" src="https://user-images.githubusercontent.com/89217492/136075796-5f0d9fab-9c0e-4906-b790-e813c891e868.jpg">
+</p>
+
+
+>>>>>>> 9b2442be90a0f4ea73b9b7d99c7456ebf0ba2f97
 
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
 
 ## Background
 
+<<<<<<< HEAD
 Have you ever been urgently needing a response from your professor but had absolutely no clue if they've even seen it? Our product is designed to give immediate feedback to students as soon as the professor has seen your message. It also includes buttons to select the type of message you plan on sending. Ex: Urgent, Homework Help, Attendance, etc.Canvas messages only allow the choice to select a course, recipient, and subject. While the subject bar gives you an opportunity to inform your instructor of the purpose behind your message, many people leave it blank. Another problem is not knowing whether or not your instructor has seen your message. This can be stressful when you would like an immediate response or the message is urgent. 
 <img width="400" src="https://github.com/sydkeet/fantastic-spork/issues/1#issue-1016547535">
 
 <p align="center">
   <img width="400" src="https://github.com/sydkeet/fantastic-spork/issues/1#issue-1016547535">
+=======
+Have you ever been urgently needing a response from your professor but had absolutely no clue if they've even seen it? Canvas messages only allow the choice to select a course, recipient, and subject. While the subject bar gives you an opportunity to inform your instructor of the purpose behind your message, many people leave it blank.  Another problem is not knowing whether or not your instructor has seen your message. This can be stressful when you would like an immediate response or the message is urgent.  Our product is designed to give immediate feedback to students as soon as the professor has seen your message depending on keywords that are given in the subject line. It also includes buttons to select the type of message you plan on sending. Ex: Urgent, Homework Help, Attendance, etc. 
+
+
+<p align="center">
+  <img width="400" src="https://user-images.githubusercontent.com/89217492/136066754-215c0193-7b47-483e-8915-a7b66cee0966.png">
+>>>>>>> 9b2442be90a0f4ea73b9b7d99c7456ebf0ba2f97
 </p>
 
 
@@ -39,6 +66,7 @@ Have you ever been urgently needing a response from your professor but had absol
 
 ### Use case scenario
 
+<<<<<<< HEAD
 We (students) want to know when/if our email is received by the professor.
 We (professors) want to know when/if our email is received by students.
 
@@ -52,16 +80,33 @@ Situation: You sent the wrong email to someone else possibly containing sensitiv
 </p>
 
 The way in which this could happen is to introduce an intermediate layer among with the user's interface with the platform he uses, which will be attentive to everything the user introduces without altering the native operation of the operating system. This special layer will also be linked to the applications that the user performs, as these will also be registered. Thus, from the most basic operations, such as turning on the system or listing folders in the console, to the most complex ones, will be recorded in the blockchain.-->
+=======
+As a student
+I want to know if my professor has seen, read, plans to respond to my email
+So That I am not left in the dark, its transparent, anxiety and frustration reduced.
+
+As a professor
+I want standard messaging
+So That I can keep track, be helpful, turn into value for others, & not have to play detective
+
+<img width="500" src="https://user-images.githubusercontent.com/89217492/136135381-68bd38d0-ce9b-4f30-9245-9ca9c02d889e.png">
+>>>>>>> 9b2442be90a0f4ea73b9b7d99c7456ebf0ba2f97
 
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
 
 ## Objectives
 
+<<<<<<< HEAD
 <!--Demonstrate that the integration of operating system commands with blockchain is possible by:
 
 1. Developing a command line interface terminal (CLI) to serve as a basis for integrating blockchain functionality.
 2. Adapting the blockchain prototype to incorporate the commands into its structure.
 3. Integrate both prototypes so that they work in a harmonious and networked way, including several instances of them.-->
+=======
+1. Develope a tool that allows user to communicate clearly
+2. BLUF Method
+3. Integrate our prototype so that Canvas and our Student-Professor Communication Mechanism works in a harmonious and networked way.
+>>>>>>> 9b2442be90a0f4ea73b9b7d99c7456ebf0ba2f97
 
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
 
@@ -71,6 +116,7 @@ This is going to be a prototype of the student-professor communiction mechanism.
 
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
 
+<<<<<<< HEAD
 <!--### Architecture
 
 <!--For the purpose of our objective, the idea is to build a prototype application that visually resembles a command line, but internally can actually access the resources of this, behaving as such and being able to perform the same operations as if it were running natively within the operating system.
@@ -179,6 +225,12 @@ This is achieved by installing [Express](https://expressjs.com/) in our project.
 > Module installed `npm i express --save`
 
 Then, we create a file and name it `app.js`. This file will serve as our request server. We add the following lines:
+=======
+
+<a href="#Table-of-contents"><p align="right">Return to the top</p></a>
+
+### Connect to Express
+>>>>>>> 9b2442be90a0f4ea73b9b7d99c7456ebf0ba2f97
 
 ```javascript
 const express = require('express')
@@ -189,6 +241,7 @@ app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 })
 ```
+<<<<<<< HEAD
 
 In the app variable we assign the server and in the port variable the port through which the communication with the URIs will be established.
 
@@ -512,10 +565,18 @@ Although tests were performed during the development of the application, the mos
 
 ### Solution
 With our app, there will be additional options when sending your email including radio buttons to decide the purpose behind your email, and checkboxes to select whether your email is urgent or if it even needs a response. It will also notify you once your email has been read by your instructor in real-time.
+=======
+### Solution
+With our app, there will be additional options when sending your email including radio buttons to decide the purpose behind your email, and checkboxes to select whether your email is urgent or if it even needs a response. It will also notify you once your email has been read by your instructor in real-time.
+<p align="center">
+  <img width="400" src="https://user-images.githubusercontent.com/89217492/136075847-b7c77527-b8d7-4503-a4af-c7713a80895e.png">
+</p>
+>>>>>>> 9b2442be90a0f4ea73b9b7d99c7456ebf0ba2f97
 
 
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
 
+<<<<<<< HEAD
 ## Conclusions
 
 As we can see, blockchain operating systems offer us a full bunch of software by taking advantage of all of the overall blockchain concepts, allowing the integration of the current and future Blockchain Ecosystem on a single operating system platform. The efficiency, reliability, privacy and security are key values of this highly new approach of interacting with computer systems.
@@ -529,6 +590,12 @@ The contemporary trends of commerce will force us to adapt new ways to do things
 ## Multimedia
 
 <a href="https://youtu.be/ObXezlYKIEc" target="_blank"></a>
+=======
+
+## Multimedia
+
+<!--<a href="https://youtu.be/ObXezlYKIEc" target="_blank"></a>
+>>>>>>> 9b2442be90a0f4ea73b9b7d99c7456ebf0ba2f97
 
 <a href="https://www.loom.com/embed/0845843780544510ae45a5c5cf03b2e5" target="_blank"><p align="center">
   <img width="400" src="https://user-images.githubusercontent.com/88801826/133354529-4e734268-96af-4ed3-835e-f9c69167e7f5.png">
@@ -538,12 +605,16 @@ The contemporary trends of commerce will force us to adapt new ways to do things
 
 ## Resource center
 
+<<<<<<< HEAD
 <!--_The blockchain prototype used in this project was generously provided by Dr. Barry Cumbie, from the University of North Alabama, on the United States, in conjunction with the Anáhuac University, on México, for the course of Blockchain with academic purposes_.
 
 Go to the [bCLI  repository ](https://github.com/rusejo/bCLI) if you want to download and test the project.
 
 Go to my [raw notes and dev journey](https://github.com/rusejo/blockchain-journey/blob/main/bcli-dev-journal.md) if you want to to know the draft of the development of this project.
 
+=======
+<!--
+>>>>>>> 9b2442be90a0f4ea73b9b7d99c7456ebf0ba2f97
 <details>
     <summary>Click here to see the <b>Source Information.</b></summary>
     <a href="https://www.guru99.com/operating-system-tutorial.html"><br />
