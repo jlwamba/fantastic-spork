@@ -1,9 +1,7 @@
 # Student-Professor Communication Mechanism
-<<<<<<< HEAD
 
-=======
 This product is made by Jerry, Sydney, and Trey. Review our team member Wiki here: https://github.com/sydkeet/fantastic-spork/wiki/Team-Members
->>>>>>> 9b2442be90a0f4ea73b9b7d99c7456ebf0ba2f97
+
 ## Table of contents
 
 * [Main idea](#Main-idea)
@@ -12,17 +10,14 @@ This product is made by Jerry, Sydney, and Trey. Review our team member Wiki her
 * [Use case scenario](#Use-case-scenario) 
 * [Objectives](#Objectives)
 * [Scope](#Scope)
-<<<<<<< HEAD
 * [Solution](#Results) 
 * [Conclusions](#Conclusions)
 * [Multimedia](#Multimedia)
 * [Resource center](#Resource-center)
-=======
 * [Connect to Express](#Express)
 * [Solution](#Solution) 
 * [Resources](#Resources)
->>>>>>> 9b2442be90a0f4ea73b9b7d99c7456ebf0ba2f97
----
+
 
 ## Main idea
 This is a proposal of our prototype Student-Professor Communication Mechanism. Through this, we will improve the communication betweeen students and professors by adding a tool that will alert users when their email has been: received, opened, or responded to. This tool will help to answer the 5 W's: who, what, when, where, why.
@@ -30,28 +25,24 @@ This is a proposal of our prototype Student-Professor Communication Mechanism. T
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
 
 ## Overview
-<<<<<<< HEAD
-We want to create an app that sends user's a notifcation when their email is received, viewed, and/or intended on being responded to. As students, we want to create this to to ensure it is received by the correct contact(s), depending on the nature of the email (ex. emergency situations), and to ensure there is not a server and/or client error.
-=======
+
 We want to create an app that sends user's a notifcation when their email is received, viewed, and/or intended on being responded to. As students, we want to create this to to ensure it is received by the correct contact(s), depending on the nature of the email (ex. emergency situations), and to ensure there is not a server and/or client error. We will also illistrate the effectiveness of the BLUF Method.
 <p align="center">
   <img width="400" src="https://user-images.githubusercontent.com/89217492/136075796-5f0d9fab-9c0e-4906-b790-e813c891e868.jpg">
 </p>
 
 
->>>>>>> 9b2442be90a0f4ea73b9b7d99c7456ebf0ba2f97
+
 
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
 
 ## Background
 
-<<<<<<< HEAD
-Have you ever been urgently needing a response from your professor but had absolutely no clue if they've even seen it? Our product is designed to give immediate feedback to students as soon as the professor has seen your message. It also includes buttons to select the type of message you plan on sending. Ex: Urgent, Homework Help, Attendance, etc.Canvas messages only allow the choice to select a course, recipient, and subject. While the subject bar gives you an opportunity to inform your instructor of the purpose behind your message, many people leave it blank. Another problem is not knowing whether or not your instructor has seen your message. This can be stressful when you would like an immediate response or the message is urgent. 
+
 <img width="400" src="https://github.com/sydkeet/fantastic-spork/issues/1#issue-1016547535">
 
 <p align="center">
-  <img width="400" src="https://github.com/sydkeet/fantastic-spork/issues/1#issue-1016547535">
-=======
+
 Have you ever been urgently needing a response from your professor but had absolutely no clue if they've even seen it? Canvas messages only allow the choice to select a course, recipient, and subject. While the subject bar gives you an opportunity to inform your instructor of the purpose behind your message, many people leave it blank.  Another problem is not knowing whether or not your instructor has seen your message. This can be stressful when you would like an immediate response or the message is urgent.  Our product is designed to give immediate feedback to students as soon as the professor has seen your message depending on keywords that are given in the subject line. It also includes buttons to select the type of message you plan on sending. Ex: Urgent, Homework Help, Attendance, etc. 
 
 
@@ -66,7 +57,7 @@ Have you ever been urgently needing a response from your professor but had absol
 
 ### Use case scenario
 
-<<<<<<< HEAD
+
 We (students) want to know when/if our email is received by the professor.
 We (professors) want to know when/if our email is received by students.
 
@@ -74,13 +65,7 @@ Should email encryption be a thing?
 -Only those that have the private key can decrypt the email
 
 Situation: You sent the wrong email to someone else possibly containing sensitive information. This is a very common mistake that occurs for those with simple email addresses. 
-<!--
-<p align="center">
-  <img width="500" src="https://user-images.githubusercontent.com/88801826/133133205-dfe4a97a-05a0-4383-bb83-2494b73e3fcf.png">
-</p>
 
-The way in which this could happen is to introduce an intermediate layer among with the user's interface with the platform he uses, which will be attentive to everything the user introduces without altering the native operation of the operating system. This special layer will also be linked to the applications that the user performs, as these will also be registered. Thus, from the most basic operations, such as turning on the system or listing folders in the console, to the most complex ones, will be recorded in the blockchain.-->
-=======
 As a student
 I want to know if my professor has seen, read, plans to respond to my email
 So That I am not left in the dark, its transparent, anxiety and frustration reduced.
@@ -90,42 +75,23 @@ I want standard messaging
 So That I can keep track, be helpful, turn into value for others, & not have to play detective
 
 <img width="500" src="https://user-images.githubusercontent.com/89217492/136135381-68bd38d0-ce9b-4f30-9245-9ca9c02d889e.png">
->>>>>>> 9b2442be90a0f4ea73b9b7d99c7456ebf0ba2f97
 
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
 
 ## Objectives
 
-<<<<<<< HEAD
-<!--Demonstrate that the integration of operating system commands with blockchain is possible by:
-
-1. Developing a command line interface terminal (CLI) to serve as a basis for integrating blockchain functionality.
-2. Adapting the blockchain prototype to incorporate the commands into its structure.
-3. Integrate both prototypes so that they work in a harmonious and networked way, including several instances of them.-->
-=======
 1. Develope a tool that allows user to communicate clearly
 2. BLUF Method
 3. Integrate our prototype so that Canvas and our Student-Professor Communication Mechanism works in a harmonious and networked way.
->>>>>>> 9b2442be90a0f4ea73b9b7d99c7456ebf0ba2f97
+
 
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
 
 ## Scope
 
-This is going to be a prototype of the student-professor communiction mechanism. It will be a form that will be able to generate a notification to send back to the sender such as if the email was received, plans on responding, and received by the correct client using the BLUF method which stands for "bottom-line-up-front". This is a military communications acronym that helps to provide clairty in emails by lists the ones with keywords at the top such as "Important." It can be ran on a cross platform, like Windows, MacOS or Linux.
+This is going to be a prototype of the student-professor communiction mechanism. It will be a form that will be able to generate a notification to send back to the sender such as if the email was received, plans on responding, and received by the correct client using the BLUF method which stands for "bottom-line-up-front". This is a military communications acronym that helps to provide clairty in emails by lists the ones with keywords at the top such as "Important." It can be ran on a cross platform, like Windows, MacOS, Linux, iOS, and Android.
 
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
-
-<<<<<<< HEAD
-<!--### Architecture
-
-<!--For the purpose of our objective, the idea is to build a prototype application that visually resembles a command line, but internally can actually access the resources of this, behaving as such and being able to perform the same operations as if it were running natively within the operating system.
-
-Therefore, our application to be developed will be based on Electron, which is a multiprocess and multiplatform architecture framework to create desktop applications using web technologies. Electron integrates Node.js to access the system resources in the backend, and the Chromium browser to build the frontend. With this, we are able to use HTML, CSS and Javascript to customize what is displayed to the user. 
-
-Since Electron is in charge of integrating the backend and the frontend in a single architecture, we will have two important processes. The `main` and the `renderer`. The first one controls the state of the application while the second one controls the interface with the user. When an Electron application is executed, the `main` process is launched, which is in charge of accessing the system resources and starting the `renderer` process. An important point to mention is that the `main` process does not have direct access to frontend methods and resources.
-
-Summarizing the above, the `main` process can be seen as a browser, and the `renderer` process as one of its tabs. 
 
 <p align="center">
   <img width="500" src="https://user-images.githubusercontent.com/88801826/133124078-a40ec00a-4548-4b29-bd34-b15e5b8453a0.png">
@@ -160,13 +126,6 @@ The result is a window that looks and behaves like a command line interface term
 -->
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
 
-### Parsing the CLI arguments
-
-<!--Once we have the CLI running without any error, the next challenge is how can I process the information that the user enters in it, with the objective of processing them later in a blockchain structure. So far, the default functionality of the application allows us to cache in `index.js` each of the characters we enter and display them at the same time in the window. 
-
-However, from this action or event, we need the complete command, not the characters separately, to be sent to the main process. Recall that the main process does not have direct communication with the rendering process. To do this there is the Inter-Process Communication. With this, `main.js` can access the `ipcMain` module, and `index.js` can access the `ipcRenderer` module, where the former is attentive to the events that happen in the latter or to the information it sends. 
-
-Based on the above, we implemented the following methods to solve this first challenge.
 
 In `index.js`:
 
@@ -230,7 +189,7 @@ Then, we create a file and name it `app.js`. This file will serve as our request
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
 
 ### Connect to Express
->>>>>>> 9b2442be90a0f4ea73b9b7d99c7456ebf0ba2f97
+
 
 ```javascript
 const express = require('express')
@@ -241,7 +200,7 @@ app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 })
 ```
-<<<<<<< HEAD
+
 
 In the app variable we assign the server and in the port variable the port through which the communication with the URIs will be established.
 
@@ -571,7 +530,6 @@ With our app, there will be additional options when sending your email including
 <p align="center">
   <img width="400" src="https://user-images.githubusercontent.com/89217492/136075847-b7c77527-b8d7-4503-a4af-c7713a80895e.png">
 </p>
->>>>>>> 9b2442be90a0f4ea73b9b7d99c7456ebf0ba2f97
 
 
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
