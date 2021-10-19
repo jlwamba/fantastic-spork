@@ -12,8 +12,6 @@ This product is made by Jerry, Sydney, and Trey. Review our team member Wiki her
 * [Scope](#Scope)
 * [Solution](#Results) 
 * [Conclusions](#Conclusions)
-* [Multimedia](#Multimedia)
-* [Resource center](#Resource-center)
 * [Connect to Express](#Express)
 * [Solution](#Solution) 
 * [Resources](#Resources)
