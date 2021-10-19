@@ -1,4 +1,4 @@
-# Student-Professor Communication Mechanism
+# T2M (Talk2Me)
 
 This product is made by Jerry, Sydney, and Trey. Review our team member Wiki here: https://github.com/sydkeet/fantastic-spork/wiki/Team-Members
 
