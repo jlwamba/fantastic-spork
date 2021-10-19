@@ -44,7 +44,6 @@ Have you ever been urgently needing a response from your professor but had absol
 
 <p align="center">
   <img width="400" src="https://user-images.githubusercontent.com/89217492/136066754-215c0193-7b47-483e-8915-a7b66cee0966.png">
->>>>>>> 9b2442be90a0f4ea73b9b7d99c7456ebf0ba2f97
 </p>
 
 
