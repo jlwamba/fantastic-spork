@@ -15,17 +15,17 @@ This product is made by Jerry, Sydney, and Trey. Review our team member Wiki her
 * [Connect to Express](#Express)
 * [Solution](#Solution) 
 * [Resources](#Resources)
-* [Conclusions](#Conclusion)
+
 
 
 ## Main idea
-This is a proposal of our prototype Student-Professor Communication Mechanism. Through this, we will improve the communication betweeen students and professors by adding a tool that will alert users when their email has been: received, opened, or responded to. This tool will help to answer the 5 W's: who, what, when, where, why.
+This is a proposal of our prototype Student-Professor Communication Mechanism. Through this, we will improve the communication betweeen students and professors by adding a tool that will alert users when their email has been: received, opened, or responded to. This tool will help to answer will help to provide users a peace of mind, reassuring them their email has been received.
 
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
 
 ## Overview
 
-We want to create an app that sends user's a notifcation when their email is received, viewed, and/or intended on being responded to. As students, we want to create this to to ensure it is received by the correct contact(s), depending on the nature of the email (ex. emergency situations), and to ensure there is not a server and/or client error. We will also illistrate the effectiveness of the BLUF Method.
+We want to create an app that sends user's a notifcation when their email is received, viewed, and/or intended on being responded to. As students, we want to create this to to ensure it is received by the correct contact(s), depending on the nature of the email (ex. emergency situations), and to ensure there is not a server and/or client error. There are many cases where the email will go to junk/spam.. this will help to ensure users the receiver has received their email. We will also illistrate the effectiveness of the BLUF Method.
 <p align="center">
   <img width="400" src="https://user-images.githubusercontent.com/89217492/136075796-5f0d9fab-9c0e-4906-b790-e813c891e868.jpg">
 </p>
@@ -85,7 +85,7 @@ So That I can keep track, be helpful, turn into value for others, & not have to 
 
 ## Scope
 
-This is going to be a prototype of the student-professor communiction mechanism. It will be a form that will be able to generate a notification to send back to the sender such as if the email was received, plans on responding, and received by the correct client using the BLUF method which stands for "bottom-line-up-front". This is a military communications acronym that helps to provide clairty in emails by lists the ones with keywords at the top such as "Important." It can be ran on a cross platform, like Windows, MacOS, Linux, iOS, and Android.
+This is going to be a web-based application prototype of the student-professor communiction mechanism "Talk2Me" (T2M). It will be a form that will be able to generate a notification to send back to the sender such as if the email was received, plans on responding, and received by the correct client using the BLUF method which stands for "bottom-line-up-front". This is a military communications acronym that helps to provide clairty in emails by lists the ones with keywords at the top such as "important." It can be ran on a cross platform, like Windows, MacOS, Linux, iOS, and Android.
 
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
 
@@ -105,7 +105,13 @@ With our app, there will be additional options when sending your email including
 
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
 
-## Conclusions
-
-
+### Resources
+<a href= "https://www.w3schools.com/"><p align="center"> W3Schools</p></a>
+<a href= "https://youtu.be/nF9g1825mwk"><p align="center"> NodeMailer</p></a>
+<a href= "https://www.formget.com/tracking-email/"><p align="center">Tracking-Email</p></a>
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
+
+
+
+
+
