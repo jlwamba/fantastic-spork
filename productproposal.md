@@ -1,6 +1,5 @@
 # T2M (Talk2Me)
 
-This product is made by Jerry, Sydney, and Trey. Review our team member Wiki here: 
 <a href= "https://github.com/sydkeet/fantastic-spork/wiki/Team-Members"><p align="center"> Meet The Team</p></a>
 <a href= "https://github.com/sydkeet/fantastic-spork/wiki/Team-Attributes"><p align="center"> Our Attributes</p></a>
 <a href= "https://github.com/sydkeet/fantastic-spork/wiki/Team-Contact-Information"><p align="center"> Contact Us</p></a>
