@@ -15,9 +15,6 @@
 * [Use case scenario](#Use-case-scenario) 
 * [Objectives](#Objectives)
 * [Scope](#Scope)
-* [Solution](#Results) 
-* [Conclusions](#Conclusions)
-* [Connect to Express](#Express)
 * [Solution](#Solution) 
 * [Resources](#Resources)
 
