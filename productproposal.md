@@ -1,4 +1,7 @@
 # T2M (Talk2Me)
+## Welcome to Talk2Me!
+Take away the stress of not knowing if your professor or students have received your email by using our app T2M created in 2021. If you have any questions please use the resources below:
+
 
 <a href= "https://github.com/sydkeet/fantastic-spork/wiki/Team-Members"><p align="center"> Meet The Team</p></a>
 <a href= "https://github.com/sydkeet/fantastic-spork/wiki/Team-Attributes"><p align="center"> Our Attributes</p></a>
@@ -14,6 +17,7 @@
 * [Background](#Background)
 * [Use case scenario](#Use-case-scenario) 
 * [Objectives](#Objectives)
+* [Set up Node](#Node)
 * [Scope](#Scope)
 * [Solution](#Solution) 
 * [Resources](#Resources)
@@ -84,6 +88,11 @@ So That I can keep track, be helpful, turn into value for others, & not have to 
 
 
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
+
+
+### Setup Nodejs and Express:
+- Install **`Nodejs`** [from here]( https://nodejs.org/en/download/) on your local developer environment.  
+- Install and setup **`Express`** [from here]( https://github.com/04banshee/Dev-Training-Lab-ALPHA). The steps and procedures are the same for this project.
 
 ## Scope
 
