@@ -120,7 +120,9 @@ With our app, there will be additional options when sending your email including
 <a href= "https://www.w3schools.com/"><p align="center"> W3Schools</p></a>
 <a href= "https://youtu.be/nF9g1825mwk"><p align="center"> NodeMailer</p></a>
 <a href= "https://www.formget.com/tracking-email/"><p align="center">Tracking-Email</p></a>
+<a href= "https://stackoverflow.com/"><p align ="center">Stack Overflow</p></a>
 <a href="#Table-of-contents"><p align="right">Return to the top</p></a>
+
 
 
 
