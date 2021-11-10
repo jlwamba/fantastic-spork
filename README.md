@@ -3,7 +3,7 @@
  
 ![oxyjfznfx1u21](https://user-images.githubusercontent.com/89217492/134563543-45b610d8-6746-4667-bdb5-f2e32a3a9b4f.jpg)
 
-# T2M (Talk2Me)
+# Talk2Me (T2M)
 ## Welcome to Talk2Me!
 Take away the stress of not knowing if your professor or students have received your email by using our app T2M created by Fantastic-Sporks in Fall 2021. If you have any questions please use the resources below:
 
