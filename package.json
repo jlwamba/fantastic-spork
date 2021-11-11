@@ -2,9 +2,9 @@
   "name": "fantastic-spork",
   "version": "1.0.0",
   "description": "As A I Want So That  ![oxyjfznfx1u21](https://user-images.githubusercontent.com/89217492/134563543-45b610d8-6746-4667-bdb5-f2e32a3a9b4f.jpg)",
-  "main": "app.js",
+  "main": "node app.js",
   "scripts": {
-    "start": "app.js",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
