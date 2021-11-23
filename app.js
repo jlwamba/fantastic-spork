@@ -24,7 +24,7 @@ app.get('/', (req, res) => {
 app.post('/send', (req, res) => {
   const output = `
     
-    <h3>Contact Details</h3>
+    <h3>New Message</h3>
     <ul>  
       <li>File: ${req.body.file}</li>
       <li>Reason: ${req.body.reason}</li>
