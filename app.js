@@ -26,7 +26,7 @@ app.post('/send', (req, res) => {
     
     <h3>Contact Details</h3>
     <ul>  
-      <li>Name: ${req.body.name}</li>
+      <li>File: ${req.body.file}</li>
       <li>College: ${req.body.college}</li>
       <li>Email: ${req.body.email}</li>
       <li>Phone: ${req.body.phone}</li>
