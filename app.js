@@ -20,21 +20,8 @@ app.use(bodyParser.json());
 app.get('/', (req, res) => {
   res.render('contact');
 });
-app.get('/yes', (req, res) => {
-    console.log('reply received');
-    res.render('contact', { msg: 'Professor says: Yes!' });
- });
-
- app.get('/no', (req, res) => {
-     console.log('reply received');
-     res.render('contact', { msg: 'Professor says: No!' });
- });
 
 app.post('/send', (req, res) => {
-  let yesUrl = req.protocol + '://' + req.get('host') + '/yes';
-
-  let noUrl = req.protocol + '://' + req.get('host') + '/no';
-
   
   const output = `
     
@@ -47,12 +34,9 @@ app.post('/send', (req, res) => {
     </ul>
     <h3>Message</h3>
     <p>${req.body.message}</p>
-    <p> ${ yesUrl } | ${ noUrl } </p>
   `;
 
   // create reusable transporter object using the default SMTP transport
-  
-  console.log(output);
   
   let transporter = nodemailer.createTransport({
     host: 'smtp.gmail.com',
