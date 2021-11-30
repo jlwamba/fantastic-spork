@@ -20,8 +20,22 @@ app.use(bodyParser.json());
 app.get('/', (req, res) => {
   res.render('contact');
 });
+app.get('/yes', (req, res) => {
+    console.log('reply received');
+    res.render('contact', { msg: 'Professor says: Yes!' });
+ });
+
+ app.get('/no', (req, res) => {
+     console.log('reply received');
+     res.render('contact', { msg: 'Professor says: No!' });
+ });
 
 app.post('/send', (req, res) => {
+  let yesUrl = req.protocol + '://' + req.get('host') + '/yes';
+
+  let noUrl = req.protocol + '://' + req.get('host') + '/no';
+
+  
   const output = `
     
     <h3>New Message</h3>
@@ -33,16 +47,20 @@ app.post('/send', (req, res) => {
     </ul>
     <h3>Message</h3>
     <p>${req.body.message}</p>
+    <p> ${ yesUrl } | ${ noUrl } </p>`;
   `;
 
   // create reusable transporter object using the default SMTP transport
+  
+  console.log(output);
+  
   let transporter = nodemailer.createTransport({
     host: 'smtp.gmail.com',
     port: 465,
     secure: true, // true for 465, false for other ports
     auth: {
         user: '486app@gmail.com', // generated ethereal user
-        pass: '486password'  // generated ethereal password
+        pass: 'four86p@$$w0rd'  // generated ethereal password
     },
     tls:{
       rejectUnauthorized:false
@@ -71,4 +89,4 @@ app.post('/send', (req, res) => {
   });
   });
 
-app.listen(process.env.PORT || 3000, () => console.log('Server started...'));
+app.listen(process.env.PORT || 3000, () => console.log('Server started at localhost:3000...'));
