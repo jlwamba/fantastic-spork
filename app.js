@@ -3,6 +3,7 @@ const bodyParser = require('body-parser');
 const exphbs = require('express-handlebars');
 const path = require('path');
 const nodemailer = require('nodemailer');
+const fs = require('fs');
 
 const app = express();
 
@@ -18,10 +19,22 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
-  res.render('contact');
+   console.log('reply received');
+   res.render('contact', { msg: 'Professor says: Yes!' });
+  
 });
 
+
+app.get('/no', (req, res) => {
+    console.log('reply received');
+    res.render('contact', { msg: 'Professor says: No!' });
+});
+
+
 app.post('/send', (req, res) => {
+      let yesUrl = req.protocol + '://' + req.get('host') + '/yes';
+
+      let noUrl = req.protocol + '://' + req.get('host') + '/no';
   
   const output = `
     
@@ -34,10 +47,18 @@ app.post('/send', (req, res) => {
     </ul>
     <h3>Message</h3>
     <p>${req.body.message}</p>
-  `;
+      <p> ${yesUrl} | ${noUrl} </p>`;
+
+
+/*fs.appendFile('msg.json', 'Hello content!', function (err) { // save message sent into json file
+        if (err) throw err;
+        console.log('Saved!');
+    }); */
 
   // create reusable transporter object using the default SMTP transport
   
+      console.log(output);
+
   let transporter = nodemailer.createTransport({
     host: 'smtp.gmail.com',
     port: 465,
@@ -45,7 +66,8 @@ app.post('/send', (req, res) => {
     auth: {
         user: '486app@gmail.com', // generated ethereal user
         pass: 'four86p@$$w0rd'  // generated ethereal password
-    },
+      //pass: 'four86p@$$w0rd'
+      },
     tls:{
       rejectUnauthorized:false
     }
@@ -55,7 +77,7 @@ app.post('/send', (req, res) => {
   // setup email data with unicode symbols
   let mailOptions = {
       from: '"T2M" <486app@gmail.com', // sender address
-      to: '486app@gmail.com', // list of receivers
+      to: 'jlwamba@una.edu', // list of receivers
       subject: 'Node Contact Request', // Subject line
       text: 'Hello world?', // plain text body
       html: output // html body
