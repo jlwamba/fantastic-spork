@@ -47,7 +47,7 @@ app.post('/send', (req, res) => {
     </ul>
     <h3>Message</h3>
     <p>${req.body.message}</p>
-    <p> ${ yesUrl } | ${ noUrl } </p>`;
+    <p> ${ yesUrl } | ${ noUrl } </p>
   `;
 
   // create reusable transporter object using the default SMTP transport
