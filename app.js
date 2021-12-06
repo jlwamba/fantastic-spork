@@ -40,8 +40,8 @@ app.post('/send', (req, res) => {
       let yesUrl = req.protocol + '://' + req.get('host') + '/yes';
 
       let noUrl = req.protocol + '://' + req.get('host') + '/no';
-  
-  const output = `
+   
+const output = `
     
     <h3>New Message</h3>
     <ul>  
