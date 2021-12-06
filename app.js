@@ -4,6 +4,9 @@ const exphbs = require('express-handlebars');
 const path = require('path');
 const nodemailer = require('nodemailer');
 const fs = require('fs');
+const { json } = require('body-parser');
+const { finished } = require('stream');
+
 
 const app = express();
 
@@ -18,6 +21,8 @@ app.use('/public', express.static(path.join(__dirname, 'public')));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
+
+// reply from receiver to sender (professor to student) with yes or no link.
 app.get('/', (req, res) => {
    console.log('reply received');
    res.render('contact', { msg: 'Professor says: Yes!' });
@@ -49,12 +54,21 @@ app.post('/send', (req, res) => {
     <p>${req.body.message}</p>
       <p> ${yesUrl} | ${noUrl} </p>`;
 
+ // save msg into json file.
+ /*let message = {
+   message: {msg:""}
+ };*/
+ const data = JSON.stringify(output);
+ // write data to disk
 
-/*fs.appendFile('msg.json', 'Hello content!', function (err) { // save message sent into json file
-        if (err) throw err;
-        console.log('Saved!');
-    }); */
+ fs.writeFile('msg.json', output, 'utf8', (err) => {
+   if (err){
+     console.log('Error writting file: ${err}');
 
+   } else{
+     console.log('File writting successfully');
+   }
+ });
   // create reusable transporter object using the default SMTP transport
   
       console.log(output);
